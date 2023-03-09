@@ -32,15 +32,18 @@ Material:
   stringTagMap: {}
 =======
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ValidKeywords:
-  - _ALPHATEST_ON
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 2450
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
   stringTagMap:
+<<<<<<< HEAD
     RenderType: TransparentCutout
+>>>>>>> main
+=======
+    RenderType: Opaque
 >>>>>>> main
   disabledShaderPasses: []
   m_SavedProperties:
@@ -118,9 +121,13 @@ Material:
     m_Floats:
     - PixelSnap: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     - _AlphaClip: 0
 =======
     - _AlphaClip: 1
+>>>>>>> main
+=======
+    - _AlphaClip: 0
 >>>>>>> main
     - _Blend: 0
     - _BlendOp: 0
@@ -128,9 +135,13 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     - _Cull: 2
 =======
     - _Cull: 0
+>>>>>>> main
+=======
+    - _Cull: 2
 >>>>>>> main
     - _Cutoff: 0.513
     - _DetailAlbedoMapScale: 1
@@ -158,11 +169,16 @@ Material:
     - _ZWrite: 1
     m_Colors:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - _BaseColor: {r: 0.1509434, g: 0.14439303, b: 0.14439303, a: 1}
     - _Color: {r: 0.1509434, g: 0.14439303, b: 0.14439303, a: 1}
 =======
     - _BaseColor: {r: 0.19607845, g: 0.19607845, b: 0.19607845, a: 1}
     - _Color: {r: 0.19607845, g: 0.19607845, b: 0.19607845, a: 1}
+>>>>>>> main
+=======
+    - _BaseColor: {r: 0.1509434, g: 0.14439303, b: 0.14439303, a: 1}
+    - _Color: {r: 0.1509434, g: 0.14439303, b: 0.14439303, a: 1}
 >>>>>>> main
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
