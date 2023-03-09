@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Canon : MonoBehaviour
 {
-    [SerializedField] private GameObject BalaPrefab;
+    [SerializeField] private GameObject BalaPrefab;
     private GameObject puntaCanon;
     private float rotacion;
 
@@ -28,10 +28,10 @@ public class Canon : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             GameObject temp = Instantiate(BalaPrefab, puntaCanon.transform.position, transform.rotation);
-            RigidBody tempRB = temp.GetComponent<RigidBody>();
+            Rigidbody tempRB = temp.GetComponent<Rigidbody>();
             Vector3 direccionDisparo = transform.rotation.eulerAngles;
             direccionDisparo.y = 90 - direccionDisparo.x;
-            tempRB.velocity = direccionDisparo.normalized * AdministradorJuego.VelocidadBala;
+            tempRB.velocity = direccionDisparo.normalized * AdministradorJuego.VelocidadBola;
         }
     }
 }
