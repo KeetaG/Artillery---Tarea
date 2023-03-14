@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bala
+  - Suelo
+  - Obstaculo
+  - Torre
   layers:
   - Default
   - TransparentFX
